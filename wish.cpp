@@ -16,7 +16,7 @@ using namespace std;
 char error_message[30] = "An error has occurred\n";  // Global error message
 
 vector<vector<string> > parseData(string input); // will be used to parse the data and store it in a vector of strings
-string removeExtraSpaces(string basicString); // helper function for parseData that will remove extra spaces
+string removeExtraSpaces(string basicString); // helper function for parseData that will remove extra spaces... doesn't work properly
 int forkHere(vector<string> command, vector<string> &path); // will fork the process and execute the command given in
 // the vector
 void commandHandler(vector<vector<string> > parseCom, vector<string> &path); // function that checks for built-in function
