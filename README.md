@@ -6,7 +6,7 @@
 The shell is the heart of the command-line interface, and thus is central to the Unix/C++ programming environment. Mastering use of the shell is necessary to become proficient in this world; knowing how the shell itself is built is the focus of this project. 
 In this project, I implemented a command line interpreter (CLI) or, as it is more commonly known, a shell. The shell should operate in this basic way: when you type in a command (in response to its prompt), the shell creates a child process that executes the command you entered and then prompts for more user input when it has finished.
 
-The shells I implemented is similar to, but simpler than, the one you run every day in Unix
+The shell that has been implemented is similar to, but simpler than, the one you run every day in Unix.
 
 ## Program Specifications
 
