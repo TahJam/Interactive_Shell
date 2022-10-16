@@ -12,7 +12,7 @@ The shell that has been implemented is similar to, but simpler than, the one you
 
 ### Basic Shell: `wish`
 
-Your basic shell, called `wish` (short for Wisconsin Shell, naturally), is
+This basic shell, called `wish` is
 basically an interactive loop: it repeatedly prints a prompt `wish> ` (note
 the space after the greater-than sign), parses the input, executes the command
 specified on that line of input, and waits for the command to finish. This is
@@ -41,11 +41,11 @@ prompt> ./wish batch.txt
 One difference between batch and interactive modes: in interactive mode, a
 prompt is printed (`wish> `). In batch mode, no prompt should be printed.
 
-You should structure your shell such that it creates a process for each new
-command (the exception are *built-in commands*, discussed below).  Your basic
+I have structured this shell such that it creates a process for each new
+command (the exception are *built-in commands*, discussed below).  This
 shell should be able to parse a command and run the program corresponding to
-the command.  For example, if the user types `ls -la /tmp`, your shell should
-run the program `/bin/ls` with the given arguments `-la` and `/tmp` (how does
+the command.  For example, if the user types `ls -la /tmp`, the shell
+runs the program `/bin/ls` with the given arguments `-la` and `/tmp` (how does
 the shell know to run `/bin/ls`? It's something called the shell **path**;
 more on this below).
 
